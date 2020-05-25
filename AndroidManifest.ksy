@@ -157,6 +157,7 @@ types:
       doc: full header includes all previous fields
     - id: string_table_len
       size: 4
+      doc: should be 4 byte aligned
     - id: strings_count
       type: u4
       doc: number of strings in manifest
